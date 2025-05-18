@@ -6,12 +6,12 @@ Run it directly with a one-liner – no download needed!
 
 ## ✨ Features
 
-*   ${ROCKET} **Easy Installation**: Get your bitz Miner node up and running in minutes.
-*   ${WALLET_ICON} **Wallet Management**: Guides you through Solana wallet creation and funding.
-*   ${SETTINGS_ICON} **Service Control**: Seamlessly manage your node with systemd service integration (start, stop, restart, status).
-*   ${UPDATE_ICON} **Simple Updates**: Keep your bitz Miner updated with a single command.
-*   ${LOG} **Log Viewing**: Easily access your node's logs.
-*   ${REMOVE_ICON} **Clean Removal**: Uninstall the node and its dependencies cleanly.
+*   🚀 **Easy Installation**: Get your bitz Miner node up and running in minutes.
+*   💼 **Wallet Management**: Guides you through Solana wallet creation and funding.
+*   ⚙️ **Service Control**: Seamlessly manage your node with systemd service integration (start, stop, restart, status).
+*   🔄 **Simple Updates**: Keep your bitz Miner updated with a single command.
+*   📜 **Log Viewing**: Easily access your node's logs.
+*   🗑️ **Clean Removal**: Uninstall the node and its dependencies cleanly.
 *   🎨 **User-Friendly Interface**: Colorful output with emojis for a better experience.
 *   🛡️ **Error Handling**: Built-in checks to guide you through potential issues.
 
@@ -36,15 +36,15 @@ Replace `<command>` with one of the available commands listed below.
 
 Here's what you can do with the bitz Node Manager:
 
-*   `install`         - ${ROCKET} Installs and configures the bitz Miner node.
-*   `remove`          - ${REMOVE_ICON} Removes the bitz Miner node and its components.
-*   `update`          - ${UPDATE_ICON} Updates the bitz Miner software.
-*   `logs`            - ${LOG} Shows the live logs for the bitz Miner service.
-*   `service-status`  - ${SETTINGS_ICON} Displays the current status of the bitz Miner service.
+*   `install`         - 🚀 Installs and configures the bitz Miner node.
+*   `remove`          - 🗑️ Removes the bitz Miner node and its components.
+*   `update`          - 🔄 Updates the bitz Miner software.
+*   `logs`            - 📜 Shows the live logs for the bitz Miner service.
+*   `service-status`  - ⚙️ Displays the current status of the bitz Miner service.
 *   `start-service`   - ▶️ Starts the bitz Miner service.
 *   `stop-service`    - ⏹️ Stops the bitz Miner service.
 *   `restart-service` - 🔄 Restarts the bitz Miner service.
-*   `help`            - ${HELP_ICON} Shows the help message with all available commands.
+*   `help`            - ❓ Shows the help message with all available commands.
 
 ## 🚀 Step-by-Step Installation Guide
 
@@ -57,11 +57,11 @@ sudo bash <(curl -s https://scripts.xnod3.com/nodes/bitz_manager.sh) install
 **Follow the on-screen prompts carefully. Key steps include:**
 
 1.  **System Setup**: The script will update your system and install necessary dependencies (like Rust, Solana CLI, etc.).
-2.  **${WALLET_ICON} Solana Wallet Creation**:
+2.  **💼 Solana Wallet Creation**:
     *   You will be guided to create a new Solana wallet.
     *   **❗ CRITICAL ❗**: When your **mnemonic phrase** (a series of words) is displayed, **SAVE IT SECURELY AND OFFLINE**. This is the ONLY way to recover your wallet. Losing it means losing access to your funds.
     *   The script will save the keypair to `~/.config/solana/id.json` for operational use, but the mnemonic is your ultimate backup.
-3.  **${PRAY} Wallet Funding**:
+3.  **🙏 Wallet Funding**:
     *   The script will display your new Solana wallet's public address (e.g., `YourWalletAddressXXXXXXXXXXXXXXX`).
     *   You will be prompted to fund this wallet with a small amount of **ETH** (e.g., 0.001 ETH) to cover initial transaction fees for the bitz network operations.
         ```
